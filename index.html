@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f2e9f5; /* soft lavender */
+            color: #4b3f55;
+        }
+
+        header {
+            background: #c8a8e9; /* pastel purple */
+            padding: 18px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        /* ✨ NEON GLOW NAV TABS ✨ */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #d6a4ff;
+            box-shadow: 0 0 12px #e6b3ff, 0 0 22px #d18aff;
+        }
+
+        nav a:active {
+            transform: scale(0.92);
+            box-shadow: 0 0 18px #e6b3ff, 0 0 30px #d18aff;
+        }
+
+        .active-tab {
+            background: #d6a4ff;
+            box-shadow: 0 0 15px #e6b3ff, 0 0 25px #d18aff;
+        }
+
+        /* ✨ MAIN CONTAINER (Neon Glow + Hover Raise) */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 30px;
+            background: #ffffff;
+            margin-top: 30px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: 0.35s ease;
+            border: 2px solid #e9c6ff;
+        }
+
+        .container:hover {
+            transform: translateY(-6px);
+            box-shadow:
+                0 0 12px #e6b3ff,
+                0 0 22px #d18aff,
+                0 0 32px #c98bff;
+            border-color: #d18aff;
+        }
+
+        /* ✨ PROFILE SECTION */
+        .profile {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            margin-top: 25px;
+        }
+
+        /* ✨ PROFILE IMAGE (Neon Glow + Raise) */
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 15px;
+            object-fit: cover;
+            border: 3px solid #d4b5f2;
+            transition: 0.35s ease;
+        }
+
+        .profile img:hover {
+            transform: translateY(-8px);
+            box-shadow:
+                0 0 15px #e6b3ff,
+                0 0 25px #d18aff,
+                0 0 35px #c98bff;
+            border-color: #d18aff;
+        }
+
+        /* ✨ TEXT NEON HIGHLIGHT ON HOVER */
+        .profile p:hover,
+        .container p:hover {
+            color: #6d4f91;
+            text-shadow: 0 0 8px #e6b3ff;
+            transition: 0.3s;
+        }
+
+        h1 {
+            color: #6d4f91;
+            text-shadow: 0 0 5px #e6b3ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 12px;
+            margin-top: 40px;
+            background: #c8a8e9;
+            color: white;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="index.html" class="active-tab">About Us</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>About Me</h1>
+    <p>
+        Hello! My name is <b>Fizza Hussain</b>. I am a BS Computer Science student with a passion for learning, 
+        creativity, and technology. I love exploring how computers work, how websites are built, and how programming 
+        can be used to solve real-life problems.  
+    </p>
+
+    <div class="profile">
+
+        <!-- 🌸 YOUR REAL PROFILE PICTURE -->
+        <img src="profile pic.jpeg" alt="My Profile Picture">
+
+        <p>
+            I am a dedicated learner who enjoys working on new concepts, especially in web development, design, and C programming.  
+            I like creating simple, clean, and user-friendly websites.  
+            <br><br>
+            Apart from academics, I enjoy graphic design, organizing my work aesthetically, and exploring new skills that help me grow.
+            My goal is to become a confident developer who can bring ideas to life through coding and creativity.
+            <br><br>
+            This portfolio website is part of my BSCS semester project, created using only HTML and CSS to demonstrate 
+            my understanding of layout, styling, and webpage structure.
+        </p>
+    </div>
+</div>
+
+<footer>
+    © 2025 BSCS Student Portfolio — Designed by Fizza Hussain
+</footer>
+
+</body>
+</html>
